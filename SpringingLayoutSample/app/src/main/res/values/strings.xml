@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SpringingLayout</string>
+    <string name="account">账号</string>
+    <string name="account_hint">请输入账号</string>
+    <string name="password_hint">密码</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="regist">注册</string>
+    <string name="login">登录</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>

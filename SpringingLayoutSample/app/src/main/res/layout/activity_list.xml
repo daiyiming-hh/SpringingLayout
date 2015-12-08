@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dym.unique.com.springinglayoutlibrary.viewgroup.SpringingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dym.unique.com.springinglayout.ListActivity">
+
+    <dym.unique.com.springinglayoutlibrary.viewgroup.SpringingHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+            <View
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#e51c23"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#e91e63"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#9c27b0"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#673ab7"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="#3f51b5"/>
+        </LinearLayout>
+    </dym.unique.com.springinglayoutlibrary.viewgroup.SpringingHorizontalScrollView>
+
+    <dym.unique.com.springinglayoutlibrary.view.SpringingListView
+        android:id="@+id/slv_list"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</dym.unique.com.springinglayoutlibrary.viewgroup.SpringingLinearLayout>
